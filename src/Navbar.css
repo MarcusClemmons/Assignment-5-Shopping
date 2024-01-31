@@ -1,0 +1,20 @@
+.navbar {
+    background-color: black;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0; /* Removes any default margin */
+    width: 100%; /* Ensures the navbar extends full width */
+    overflow:hidden;
+  }
+  
+  .navbar a {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    color: #ddd;
+  }

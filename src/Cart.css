@@ -1,0 +1,75 @@
+.main-cart {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 50px; /* Added margin-top */
+}
+
+.cart-and-summary-container {
+    display: flex;
+    margin-top: 50px; /* Ensure there's space above this container */
+}
+
+.cart-items {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; /* Ensures it takes the available space */
+    width: 70%; /* Adjusted width */
+    margin-right: 2%;
+    color: white;
+}
+
+.product-summary {
+    width: 28%; /* Adjusted width */
+    color: white;
+    /* Additional styles to align items in the product-summary */
+    display: flex;
+    flex-direction: column;
+}
+
+.product-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+h1 {
+    color: white;
+}
+
+.product-summary div {
+    margin-top: 10px;
+}
+
+.checkOut {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.past-orders {
+    width: 100%;
+    margin-top: 20px;
+    color: white;
+}
+
+.past-order-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.view-past-orders-link {
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
